@@ -15,7 +15,7 @@ namespace NecTronalds
         {
             this.Lanches.Add(l);
         }
-        public void AdicionarLanche(string Nome, string Desc, float Preco)
+        public void AdicionarLanche(string Nome, string Desc, decimal Preco)
         {
             this.AdicionarLanche(new Lanche(Nome, Desc, Preco));
         }

@@ -8,9 +8,9 @@ namespace NecTronalds
     {
         public string Nome { get; set; }
         public string Desc { get; set; }
-        public float Preco { get; set; }
+        public decimal Preco { get; set; }
 
-        public Lanche(string Nome, string Desc, float Preco)
+        public Lanche(string Nome, string Desc, decimal Preco)
         {
             this.Nome = Nome;
             this.Desc = Desc;
